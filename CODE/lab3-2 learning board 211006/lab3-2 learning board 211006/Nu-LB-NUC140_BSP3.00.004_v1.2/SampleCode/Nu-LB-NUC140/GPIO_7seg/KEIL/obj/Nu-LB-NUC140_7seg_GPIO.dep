@@ -1,6 +1,6 @@
 Dependencies for Project 'Nu-LB-NUC140_7seg', Target 'GPIO': (DO NOT MODIFY !)
 CompilerVersion: 5060020::V5.06 (build 20)::.\ARMCC
-F (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Source\system_NUC100Series.c)(0x5A1E2A42)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\system_nuc100series.o --omf_browse .\obj\system_nuc100series.crf --depend .\obj\system_nuc100series.d)
+F (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Source\system_NUC100Series.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\system_nuc100series.o --omf_browse .\obj\system_nuc100series.crf --depend .\obj\system_nuc100series.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x559E7692)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
@@ -28,7 +28,7 @@ I (..\..\..\..\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
 F (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Source\ARM\startup_NUC100Series.s)(0x5A1E2A42)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 537"--list .\lst\startup_nuc100series.lst --xref -o .\obj\startup_nuc100series.o --depend .\obj\startup_nuc100series.d)
-F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x5A1E2A42)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x559E7692)
@@ -55,7 +55,7 @@ I (..\..\..\..\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
-F (..\..\..\..\Library\StdDriver\src\uart.c)(0x5A1E2A42)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+F (..\..\..\..\Library\StdDriver\src\uart.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x559E7698)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
@@ -83,7 +83,7 @@ I (..\..\..\..\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
-F (..\..\..\..\Library\StdDriver\src\clk.c)(0x5A1E2A42)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+F (..\..\..\..\Library\StdDriver\src\clk.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x559E7692)
@@ -110,7 +110,7 @@ I (..\..\..\..\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
-F (..\..\..\..\Library\StdDriver\src\sys.c)(0x5A1E2A42)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+F (..\..\..\..\Library\StdDriver\src\sys.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x559E7692)
@@ -137,8 +137,9 @@ I (..\..\..\..\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
-F (..\main.c)(0x62F61A37)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+F (..\main.c)(0x62F76C88)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x559E7698)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x559E7696)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x559E7692)
@@ -168,7 +169,7 @@ I (..\..\..\..\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
 I (..\MCU_init.h)(0x5A785F86)
 I (..\..\..\..\Library\Nu-LB-NUC140\Include\SYS_init.h)(0x5AD5A3D0)
 I (..\..\..\..\Library\Nu-LB-NUC140\Include\Seven_Segment.h)(0x55388C80)
-F (..\..\..\..\Library\Nu-LB-NUC140\Source\SYS_init.c)(0x5AD5A3B6)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\sys_init.o --omf_browse .\obj\sys_init.crf --depend .\obj\sys_init.d)
+F (..\..\..\..\Library\Nu-LB-NUC140\Source\SYS_init.c)(0x5AD5A3B6)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\sys_init.o --omf_browse .\obj\sys_init.crf --depend .\obj\sys_init.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x559E7698)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
@@ -198,7 +199,7 @@ I (..\..\..\..\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
 I (..\..\..\..\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
 I (..\MCU_init.h)(0x5A785F86)
 I (..\..\..\..\Library\Nu-LB-NUC140\Include\SYS_init.h)(0x5AD5A3D0)
-F (..\..\..\..\Library\Nu-LB-NUC140\Source\Seven_Segment.c)(0x55388D82)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\seven_segment.o --omf_browse .\obj\seven_segment.crf --depend .\obj\seven_segment.d)
+F (..\..\..\..\Library\Nu-LB-NUC140\Source\Seven_Segment.c)(0x55388D82)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include -I ..\..\..\..\Library\Nu-LB-NUC140\Include -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="537"-o .\obj\seven_segment.o --omf_browse .\obj\seven_segment.crf --depend .\obj\seven_segment.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x559E7698)
 I (..\..\..\..\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x5A784CF0)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)

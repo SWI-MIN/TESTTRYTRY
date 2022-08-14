@@ -902,6 +902,744 @@ extern __declspec(__nothrow) void __use_no_semihosting(void);
  
 
 #line 5 "..\\main.c"
+#line 1 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
+
+
+
+
+#line 54 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+  
+
+
+
+    typedef unsigned int size_t;    
+#line 70 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+
+
+
+
+    
+
+
+
+    typedef unsigned short wchar_t;  
+#line 91 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+typedef struct div_t { int quot, rem; } div_t;
+    
+typedef struct ldiv_t { long int quot, rem; } ldiv_t;
+    
+
+typedef struct lldiv_t { long long quot, rem; } lldiv_t;
+    
+
+
+#line 112 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+   
+
+
+
+ 
+
+   
+
+
+
+
+ 
+#line 131 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+   
+
+
+ 
+extern __declspec(__nothrow) int __aeabi_MB_CUR_MAX(void);
+
+   
+
+
+
+
+ 
+
+   
+
+
+
+
+ 
+
+
+
+
+extern __declspec(__nothrow) double atof(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+extern __declspec(__nothrow) int atoi(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+extern __declspec(__nothrow) long int atol(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+
+extern __declspec(__nothrow) long long atoll(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+
+
+extern __declspec(__nothrow) double strtod(const char * __restrict  , char ** __restrict  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) float strtof(const char * __restrict  , char ** __restrict  ) __attribute__((__nonnull__(1)));
+extern __declspec(__nothrow) long double strtold(const char * __restrict  , char ** __restrict  ) __attribute__((__nonnull__(1)));
+   
+
+ 
+
+extern __declspec(__nothrow) long int strtol(const char * __restrict  ,
+                        char ** __restrict  , int  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) unsigned long int strtoul(const char * __restrict  ,
+                                       char ** __restrict  , int  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+extern __declspec(__nothrow) long long strtoll(const char * __restrict  ,
+                                  char ** __restrict  , int  )
+                          __attribute__((__nonnull__(1)));
+   
+
+
+
+
+ 
+extern __declspec(__nothrow) unsigned long long strtoull(const char * __restrict  ,
+                                            char ** __restrict  , int  )
+                                   __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+
+extern __declspec(__nothrow) int rand(void);
+   
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) void srand(unsigned int  );
+   
+
+
+
+
+
+
+ 
+
+struct _rand_state { int __x[57]; };
+extern __declspec(__nothrow) int _rand_r(struct _rand_state *);
+extern __declspec(__nothrow) void _srand_r(struct _rand_state *, unsigned int);
+struct _ANSI_rand_state { int __x[1]; };
+extern __declspec(__nothrow) int _ANSI_rand_r(struct _ANSI_rand_state *);
+extern __declspec(__nothrow) void _ANSI_srand_r(struct _ANSI_rand_state *, unsigned int);
+   
+
+
+ 
+
+extern __declspec(__nothrow) void *calloc(size_t  , size_t  );
+   
+
+
+
+ 
+extern __declspec(__nothrow) void free(void *  );
+   
+
+
+
+
+
+ 
+extern __declspec(__nothrow) void *malloc(size_t  );
+   
+
+
+
+ 
+extern __declspec(__nothrow) void *realloc(void *  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) int posix_memalign(void **  , size_t  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+ 
+
+typedef int (*__heapprt)(void *, char const *, ...);
+extern __declspec(__nothrow) void __heapstats(int (*  )(void *  ,
+                                           char const *  , ...),
+                        void *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int __heapvalid(int (*  )(void *  ,
+                                           char const *  , ...),
+                       void *  , int  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) __declspec(__noreturn) void abort(void);
+   
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) int atexit(void (*  )(void)) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+ 
+#line 436 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+extern __declspec(__nothrow) __declspec(__noreturn) void exit(int  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) __declspec(__noreturn) void _Exit(int  );
+   
+
+
+
+
+
+
+
+      
+
+extern __declspec(__nothrow) char *getenv(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) int  system(const char *  );
+   
+
+
+
+
+
+
+
+
+
+ 
+
+extern  void *bsearch(const void *  , const void *  ,
+              size_t  , size_t  ,
+              int (*  )(const void *, const void *)) __attribute__((__nonnull__(1,2,5)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+#line 524 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+extern  void qsort(void *  , size_t  , size_t  ,
+           int (*  )(const void *, const void *)) __attribute__((__nonnull__(1,4)));
+   
+
+
+
+
+
+
+
+
+
+ 
+
+#line 553 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+extern __declspec(__nothrow) __attribute__((const)) int abs(int  );
+   
+
+
+
+ 
+
+extern __declspec(__nothrow) __attribute__((const)) div_t div(int  , int  );
+   
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) __attribute__((const)) long int labs(long int  );
+   
+
+
+
+ 
+
+
+
+
+extern __declspec(__nothrow) __attribute__((const)) ldiv_t ldiv(long int  , long int  );
+   
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+extern __declspec(__nothrow) __attribute__((const)) long long llabs(long long  );
+   
+
+
+
+ 
+
+
+
+
+extern __declspec(__nothrow) __attribute__((const)) lldiv_t lldiv(long long  , long long  );
+   
+
+
+
+
+
+
+
+
+
+
+
+ 
+#line 634 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+
+
+ 
+typedef struct __sdiv32by16 { int quot, rem; } __sdiv32by16;
+typedef struct __udiv32by16 { unsigned int quot, rem; } __udiv32by16;
+    
+typedef struct __sdiv64by32 { int rem, quot; } __sdiv64by32;
+
+__value_in_regs extern __declspec(__nothrow) __attribute__((const)) __sdiv32by16 __rt_sdiv32by16(
+     int  ,
+     short int  );
+   
+
+ 
+__value_in_regs extern __declspec(__nothrow) __attribute__((const)) __udiv32by16 __rt_udiv32by16(
+     unsigned int  ,
+     unsigned short  );
+   
+
+ 
+__value_in_regs extern __declspec(__nothrow) __attribute__((const)) __sdiv64by32 __rt_sdiv64by32(
+     int  , unsigned int  ,
+     int  );
+   
+
+ 
+
+
+
+
+ 
+extern __declspec(__nothrow) unsigned int __fp_status(unsigned int  , unsigned int  );
+   
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int mblen(const char *  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int mbtowc(wchar_t * __restrict  ,
+                   const char * __restrict  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int wctomb(char *  , wchar_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+extern __declspec(__nothrow) size_t mbstowcs(wchar_t * __restrict  ,
+                      const char * __restrict  , size_t  ) __attribute__((__nonnull__(2)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) size_t wcstombs(char * __restrict  ,
+                      const wchar_t * __restrict  , size_t  ) __attribute__((__nonnull__(2)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) void __use_realtime_heap(void);
+extern __declspec(__nothrow) void __use_realtime_division(void);
+extern __declspec(__nothrow) void __use_two_region_memory(void);
+extern __declspec(__nothrow) void __use_no_heap(void);
+extern __declspec(__nothrow) void __use_no_heap_region(void);
+
+extern __declspec(__nothrow) char const *__C_library_version_string(void);
+extern __declspec(__nothrow) int __C_library_version_number(void);
+
+
+
+
+
+
+
+
+
+
+
+#line 892 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+
+
+
+ 
+#line 6 "..\\main.c"
 #line 1 "..\\..\\..\\..\\Library\\Device\\Nuvoton\\NUC100Series\\Include\\NUC100Series.h"
  
 
@@ -20323,7 +21061,7 @@ void ACMP_Close(ACMP_T *, uint32_t u32ChNum);
 
 
 
-#line 6 "..\\main.c"
+#line 7 "..\\main.c"
 #line 1 "..\\MCU_init.h"
 
 
@@ -20331,7 +21069,7 @@ void ACMP_Close(ACMP_T *, uint32_t u32ChNum);
 
 
 
-#line 7 "..\\main.c"
+#line 8 "..\\main.c"
 #line 1 "..\\..\\..\\..\\Library\\Nu-LB-NUC140\\Include\\SYS_init.h"
 
 
@@ -20701,7 +21439,7 @@ void ACMP_Close(ACMP_T *, uint32_t u32ChNum);
 
 extern void SYS_Init(void);
 
-#line 8 "..\\main.c"
+#line 9 "..\\main.c"
 #line 1 "..\\..\\..\\..\\Library\\Nu-LB-NUC140\\Include\\Seven_Segment.h"
 
 
@@ -20709,24 +21447,66 @@ extern void SYS_Init(void);
 extern void OpenSevenSegment(void);
 extern void ShowSevenSegment(uint8_t no, uint8_t number);
 extern void CloseSevenSegment(void);
-#line 9 "..\\main.c"
+#line 10 "..\\main.c"
 
-int main(void)
-{
-		uint8_t i = 0;
-		uint8_t j = 5;
-
-		SYS_Init();
-		OpenSevenSegment();
+void LED_binary(int num){
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((12)<<2)))) = 1;
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((13)<<2)))) = 1;
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((14)<<2)))) = 1;
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((15)<<2)))) = 1;
 	
+	if(num>=8) { num-=8; (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((12)<<2)))) = 0; }
+	if(num>=4) { num-=4; (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((13)<<2)))) = 0; }
+	if(num>=2) { num-=2; (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((14)<<2)))) = 0; }
+	if(num>=1) { num-=1; (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((15)<<2)))) = 0; }
+}
+void SevenSegment_0to9999(int num){
+	while(num<10000){
+		ShowSevenSegment(0,num%10);
+		CLK_SysTickDelay(5000);
 		CloseSevenSegment();
-		ShowSevenSegment(i,j);
-		CLK_SysTickDelay(1000000);
+		ShowSevenSegment(1,num/10%10);
+		CLK_SysTickDelay(5000);
 		CloseSevenSegment();
-		ShowSevenSegment(1,6);
-		CLK_SysTickDelay(1000000);
+		ShowSevenSegment(2,num/100%10);
+		CLK_SysTickDelay(5000);
 		CloseSevenSegment();
-		ShowSevenSegment(2,6);
-		CLK_SysTickDelay(1000000);
+		ShowSevenSegment(3,num/1000);
+		CLK_SysTickDelay(5000);
 		CloseSevenSegment();
+		
+		num++;
+		if(num == 10000){
+			num = 0;
+			CloseSevenSegment();
+		}
+	}
+}
+
+int main(void){
+	SYS_Init();
+	OpenSevenSegment();
+	CloseSevenSegment();
+	
+	
+	int i = 0;
+	int j = 0;
+	int question = 0;
+
+	if(question == 1){
+		i = 0;
+		j = 0;
+		while(1){
+			
+			LED_binary(j);
+			ShowSevenSegment(i,j);
+			CLK_SysTickDelay(1000000);
+			if(j == 9){ j = 0; }
+			else{ j++; }
+		}
+	}
+	else if(question == 2){
+		j = 0;
+		SevenSegment_0to9999(j);
+	}
 }

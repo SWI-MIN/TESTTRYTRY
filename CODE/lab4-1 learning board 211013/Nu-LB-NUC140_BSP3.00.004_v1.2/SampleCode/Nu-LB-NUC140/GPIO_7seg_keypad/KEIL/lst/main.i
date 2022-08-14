@@ -902,6 +902,744 @@ extern __declspec(__nothrow) void __use_no_semihosting(void);
  
 
 #line 5 "..\\main.c"
+#line 1 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
+
+
+
+
+#line 54 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+  
+
+
+
+    typedef unsigned int size_t;    
+#line 70 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+
+
+
+
+    
+
+
+
+    typedef unsigned short wchar_t;  
+#line 91 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+typedef struct div_t { int quot, rem; } div_t;
+    
+typedef struct ldiv_t { long int quot, rem; } ldiv_t;
+    
+
+typedef struct lldiv_t { long long quot, rem; } lldiv_t;
+    
+
+
+#line 112 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+   
+
+
+
+ 
+
+   
+
+
+
+
+ 
+#line 131 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+   
+
+
+ 
+extern __declspec(__nothrow) int __aeabi_MB_CUR_MAX(void);
+
+   
+
+
+
+
+ 
+
+   
+
+
+
+
+ 
+
+
+
+
+extern __declspec(__nothrow) double atof(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+extern __declspec(__nothrow) int atoi(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+extern __declspec(__nothrow) long int atol(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+
+extern __declspec(__nothrow) long long atoll(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+
+
+extern __declspec(__nothrow) double strtod(const char * __restrict  , char ** __restrict  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) float strtof(const char * __restrict  , char ** __restrict  ) __attribute__((__nonnull__(1)));
+extern __declspec(__nothrow) long double strtold(const char * __restrict  , char ** __restrict  ) __attribute__((__nonnull__(1)));
+   
+
+ 
+
+extern __declspec(__nothrow) long int strtol(const char * __restrict  ,
+                        char ** __restrict  , int  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) unsigned long int strtoul(const char * __restrict  ,
+                                       char ** __restrict  , int  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+extern __declspec(__nothrow) long long strtoll(const char * __restrict  ,
+                                  char ** __restrict  , int  )
+                          __attribute__((__nonnull__(1)));
+   
+
+
+
+
+ 
+extern __declspec(__nothrow) unsigned long long strtoull(const char * __restrict  ,
+                                            char ** __restrict  , int  )
+                                   __attribute__((__nonnull__(1)));
+   
+
+
+
+ 
+
+extern __declspec(__nothrow) int rand(void);
+   
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) void srand(unsigned int  );
+   
+
+
+
+
+
+
+ 
+
+struct _rand_state { int __x[57]; };
+extern __declspec(__nothrow) int _rand_r(struct _rand_state *);
+extern __declspec(__nothrow) void _srand_r(struct _rand_state *, unsigned int);
+struct _ANSI_rand_state { int __x[1]; };
+extern __declspec(__nothrow) int _ANSI_rand_r(struct _ANSI_rand_state *);
+extern __declspec(__nothrow) void _ANSI_srand_r(struct _ANSI_rand_state *, unsigned int);
+   
+
+
+ 
+
+extern __declspec(__nothrow) void *calloc(size_t  , size_t  );
+   
+
+
+
+ 
+extern __declspec(__nothrow) void free(void *  );
+   
+
+
+
+
+
+ 
+extern __declspec(__nothrow) void *malloc(size_t  );
+   
+
+
+
+ 
+extern __declspec(__nothrow) void *realloc(void *  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) int posix_memalign(void **  , size_t  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+ 
+
+typedef int (*__heapprt)(void *, char const *, ...);
+extern __declspec(__nothrow) void __heapstats(int (*  )(void *  ,
+                                           char const *  , ...),
+                        void *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int __heapvalid(int (*  )(void *  ,
+                                           char const *  , ...),
+                       void *  , int  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) __declspec(__noreturn) void abort(void);
+   
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) int atexit(void (*  )(void)) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+ 
+#line 436 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+extern __declspec(__nothrow) __declspec(__noreturn) void exit(int  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) __declspec(__noreturn) void _Exit(int  );
+   
+
+
+
+
+
+
+
+      
+
+extern __declspec(__nothrow) char *getenv(const char *  ) __attribute__((__nonnull__(1)));
+   
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) int  system(const char *  );
+   
+
+
+
+
+
+
+
+
+
+ 
+
+extern  void *bsearch(const void *  , const void *  ,
+              size_t  , size_t  ,
+              int (*  )(const void *, const void *)) __attribute__((__nonnull__(1,2,5)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+#line 524 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+extern  void qsort(void *  , size_t  , size_t  ,
+           int (*  )(const void *, const void *)) __attribute__((__nonnull__(1,4)));
+   
+
+
+
+
+
+
+
+
+
+ 
+
+#line 553 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+extern __declspec(__nothrow) __attribute__((const)) int abs(int  );
+   
+
+
+
+ 
+
+extern __declspec(__nothrow) __attribute__((const)) div_t div(int  , int  );
+   
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) __attribute__((const)) long int labs(long int  );
+   
+
+
+
+ 
+
+
+
+
+extern __declspec(__nothrow) __attribute__((const)) ldiv_t ldiv(long int  , long int  );
+   
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+extern __declspec(__nothrow) __attribute__((const)) long long llabs(long long  );
+   
+
+
+
+ 
+
+
+
+
+extern __declspec(__nothrow) __attribute__((const)) lldiv_t lldiv(long long  , long long  );
+   
+
+
+
+
+
+
+
+
+
+
+
+ 
+#line 634 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+
+
+ 
+typedef struct __sdiv32by16 { int quot, rem; } __sdiv32by16;
+typedef struct __udiv32by16 { unsigned int quot, rem; } __udiv32by16;
+    
+typedef struct __sdiv64by32 { int rem, quot; } __sdiv64by32;
+
+__value_in_regs extern __declspec(__nothrow) __attribute__((const)) __sdiv32by16 __rt_sdiv32by16(
+     int  ,
+     short int  );
+   
+
+ 
+__value_in_regs extern __declspec(__nothrow) __attribute__((const)) __udiv32by16 __rt_udiv32by16(
+     unsigned int  ,
+     unsigned short  );
+   
+
+ 
+__value_in_regs extern __declspec(__nothrow) __attribute__((const)) __sdiv64by32 __rt_sdiv64by32(
+     int  , unsigned int  ,
+     int  );
+   
+
+ 
+
+
+
+
+ 
+extern __declspec(__nothrow) unsigned int __fp_status(unsigned int  , unsigned int  );
+   
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int mblen(const char *  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int mbtowc(wchar_t * __restrict  ,
+                   const char * __restrict  , size_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) int wctomb(char *  , wchar_t  );
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+extern __declspec(__nothrow) size_t mbstowcs(wchar_t * __restrict  ,
+                      const char * __restrict  , size_t  ) __attribute__((__nonnull__(2)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __declspec(__nothrow) size_t wcstombs(char * __restrict  ,
+                      const wchar_t * __restrict  , size_t  ) __attribute__((__nonnull__(2)));
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern __declspec(__nothrow) void __use_realtime_heap(void);
+extern __declspec(__nothrow) void __use_realtime_division(void);
+extern __declspec(__nothrow) void __use_two_region_memory(void);
+extern __declspec(__nothrow) void __use_no_heap(void);
+extern __declspec(__nothrow) void __use_no_heap_region(void);
+
+extern __declspec(__nothrow) char const *__C_library_version_string(void);
+extern __declspec(__nothrow) int __C_library_version_number(void);
+
+
+
+
+
+
+
+
+
+
+
+#line 892 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdlib.h"
+
+
+
+
+
+ 
+#line 6 "..\\main.c"
 #line 1 "..\\..\\..\\..\\Library\\Device\\Nuvoton\\NUC100Series\\Include\\NUC100Series.h"
  
 
@@ -20323,7 +21061,7 @@ void ACMP_Close(ACMP_T *, uint32_t u32ChNum);
 
 
 
-#line 6 "..\\main.c"
+#line 7 "..\\main.c"
 #line 1 "..\\MCU_init.h"
 
 
@@ -20331,7 +21069,7 @@ void ACMP_Close(ACMP_T *, uint32_t u32ChNum);
 
 
 
-#line 7 "..\\main.c"
+#line 8 "..\\main.c"
 #line 1 "..\\..\\..\\..\\Library\\Nu-LB-NUC140\\Include\\SYS_init.h"
 
 
@@ -20701,7 +21439,7 @@ void ACMP_Close(ACMP_T *, uint32_t u32ChNum);
 
 extern void SYS_Init(void);
 
-#line 8 "..\\main.c"
+#line 9 "..\\main.c"
 #line 1 "..\\..\\..\\..\\Library\\Nu-LB-NUC140\\Include\\Seven_Segment.h"
 
 
@@ -20709,7 +21447,7 @@ extern void SYS_Init(void);
 extern void OpenSevenSegment(void);
 extern void ShowSevenSegment(uint8_t no, uint8_t number);
 extern void CloseSevenSegment(void);
-#line 9 "..\\main.c"
+#line 10 "..\\main.c"
 #line 1 "..\\..\\..\\..\\Library\\Nu-LB-NUC140\\Include\\Scankey.h"
 
 
@@ -20720,26 +21458,285 @@ uint8_t ScanKey(void);
 
 
 
-#line 10 "..\\main.c"
+#line 11 "..\\main.c"
+
+uint8_t SEG[10] = {0x82, 0xEE, 0x07, 0x46, 0x6A, 0x52, 0x12, 0xE6, 0x02, 0x62}; 
+int pc_Open = 1;
+int pc_Close = 0;
+int pe_Open = 0;
+int pe_Close = 1;
 
 
-void Show(uint16_t value)
-{
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+void Q1_Show(uint16_t value){
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((4)<<2))))=1;
+	uint8_t temp;
+	temp=SEG[value];
+	for(int i=0;i<8;i++){
+		if((temp&0x01)==0x01){	   		   
+			switch(i){
+			case 0: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((0)<<2))))=1; break;
+			case 1: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((1)<<2))))=1; break;
+			case 2: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((2)<<2))))=1; break;
+			case 3: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((3)<<2))))=1; break;
+			case 4: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((4)<<2))))=1; break;
+			case 5: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((5)<<2))))=1; break;
+			case 6: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((6)<<2))))=1; break;
+			case 7: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((7)<<2))))=1; break;
+			}
+		}else{
+			switch(i) {
+			case 0: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((0)<<2))))=0; break;
+			case 1: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((1)<<2))))=0; break;
+			case 2: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((2)<<2))))=0; break;
+			case 3: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((3)<<2))))=0; break;
+			case 4: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((4)<<2))))=0; break;
+			case 5: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((5)<<2))))=0; break;
+			case 6: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((6)<<2))))=0; break;
+			case 7: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((7)<<2))))=0; break;
+			}	  
+		}
+		temp=temp>>1;
+	}
 }
 
-int main(void)
-{
-		uint16_t i;
+int Q2_find_pc(int *pc){
+	for(int i=0; i<4; i++){
+		if(pc[i] == 1){
+			return i;
+		}
+	}
+}
+int Q2_find_pe(int *pe){
+	for(int i=0; i<8; i++){
+		if(pe[i] == 0){
+			return i;
+		}
+	}
+}
+
+void Q2_Show(int pcc, int pee){
+	switch(pcc){
+		case 0: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((4)<<2))))=1; break;
+		case 1: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((5)<<2))))=1; break;
+		case 2: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((6)<<2))))=1; break;
+		case 3: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((7)<<2))))=1; break;
+	}
+	switch(pee){
+		 case 0: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((0)<<2))))=0; break;
+		 case 1: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((1)<<2))))=0; break;
+		 case 2: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((2)<<2))))=0; break;
+		 case 3: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((3)<<2))))=0; break;
+		 case 4: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((4)<<2))))=0; break;
+		 case 5: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((5)<<2))))=0; break;
+		 case 6: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((6)<<2))))=0; break;
+		 case 7: (*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((7)<<2))))=0; break;
+	}
+}
+
+void Q2_Close(void){
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((4)<<2)))) = 0; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((5)<<2)))) = 0; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((6)<<2)))) = 0; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(2))) + ((7)<<2)))) = 0; 
 	
-    SYS_Init();
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((0)<<2)))) = 1; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((1)<<2)))) = 1; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((2)<<2)))) = 1; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((3)<<2)))) = 1; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((4)<<2)))) = 1; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((5)<<2)))) = 1; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((6)<<2)))) = 1; 
+	(*((volatile uint32_t *)(((((( uint32_t)0x50000000) + 0x4000) + 0x0200)+(0x40*(4))) + ((7)<<2)))) = 1; 
+	CLK_SysTickDelay(5000);
+}
 
-    OpenSevenSegment();
-	  OpenKeyPad();
 
- 	  while(1)
-		{
+void Q2_Change_PC_PE(int *pc, int *pe, uint16_t value){
+	int pcc = Q2_find_pc(pc);
+	int pee = Q2_find_pe(pe);
+	if(value==2){
+		if(pee == 4){
+			pe[4]=pe_Close;pe[3]=pe_Open;
+		}else if(pee == 0){
+			pe[0]=pe_Close;pe[4]=pe_Open;
+		}else if(pee == 3){
+			pe[3]=pe_Close;pe[5]=pe_Open;
+		}else if(pee == 7){
+			pe[7]=pe_Close;pe[3]=pe_Open;
+		}else if(pee == 5){
+			pe[5]=pe_Close;pe[7]=pe_Open;
+		}else if(pee == 2){
+			pe[2]=pe_Close;pe[3]=pe_Open;
+		}else if(pee == 6){
+			pe[6]=pe_Close;pe[2]=pe_Open;
+		}
+	}
+	else if(value==8){
+		if(pee == 4){
+			pe[4]=pe_Close;pe[0]=pe_Open;
+		}else if(pee == 0){
+			pe[0]=pe_Close;pe[5]=pe_Open;
+		}else if(pee == 3){
+			pe[3]=pe_Close;pe[7]=pe_Open;
+		}else if(pee == 7){
+			pe[7]=pe_Close;pe[5]=pe_Open;
+		}else if(pee == 5){
+			pe[5]=pe_Close;pe[3]=pe_Open;
+		}else if(pee == 2){
+			pe[2]=pe_Close;pe[6]=pe_Open;
+		}else if(pee == 6){
+			pe[6]=pe_Close;pe[5]=pe_Open;
+		}
+	}
+	else if(value==6){
+		if(pee == 4){
+			if(pcc == 0){
+				pc[0]=pc_Close;pc[3]=pc_Open;
+				pe[4]=pc_Close;pe[2]=pe_Open;
+			}else if(pcc == 1){
+				pc[1]=pc_Close;pc[0]=pc_Open;
+				pe[4]=pe_Close;pe[2]=pe_Open;
+			}else if(pcc == 2){
+				pc[2]=pc_Close;pc[1]=pc_Open;
+				pe[4]=pe_Close;pe[2]=pe_Open;
+			}else if(pcc == 3){
+				pc[3]=pc_Close;pc[2]=pc_Open;
+				pe[4]=pe_Close;pe[2]=pe_Open;
+			}
+		}else if(pee == 0){
+			if(pcc == 0){
+				pc[0]=pc_Close;pc[3]=pc_Open;
+				pe[0]=pe_Close;pe[6]=pe_Open;
+			}else if(pcc == 1){
+				pc[1]=pc_Close;pc[0]=pc_Open;
+				pe[0]=pe_Close;pe[6]=pe_Open;
+			}else if(pcc == 2){
+				pc[2]=pc_Close;pc[1]=pc_Open;
+				pe[0]=pe_Close;pe[6]=pe_Open;
+			}else if(pcc == 3){
+				pc[3]=pc_Close;pc[2]=pc_Open;
+				pe[0]=pe_Close;pe[6]=pe_Open;
+			}
+		}else if(pee == 3){
+			pe[3]=pe_Close;pe[4]=pe_Open;
+		}else if(pee == 7){
+			if(pcc == 0){
+				pc[0]=pc_Close;pc[3]=pc_Open;
+			}else if(pcc == 1){
+				pc[1]=pc_Close;pc[0]=pc_Open;
+			}else if(pcc == 2){
+				pc[2]=pc_Close;pc[1]=pc_Open;
+			}else if(pcc == 3){
+				pc[3]=pc_Close;pc[2]=pc_Open;
+			}
+		}else if(pee == 5){
+			pe[5]=pe_Close;pe[0]=pe_Open;
+		}else if(pee == 2){
+			pe[2]=pe_Close;pe[3]=pe_Open;
+		}else if(pee == 6){
+			pe[6]=pe_Close;pe[5]=pe_Open;
+		}
+	}
+	else if(value==4){
+		if(pee == 4){
+			pe[4]=pe_Close;pe[3]=pe_Open;
+		}else if(pee == 0){
+			pe[0]=pe_Close;pe[5]=pe_Open;
+		}else if(pee == 3){
+			pe[3]=pe_Close;pe[2]=pe_Open;
+		}else if(pee == 7){
+			if(pcc == 0){
+				pc[0]=pc_Close;pc[1]=pc_Open;
+			}else if(pcc == 1){
+				pc[1]=pc_Close;pc[2]=pc_Open;
+			}else if(pcc == 2){
+				pc[2]=pc_Close;pc[3]=pc_Open;
+			}else if(pcc == 3){
+				pc[3]=pc_Close;pc[0]=pc_Open;
+			}
+		}else if(pee == 5){
+			pe[5]=pe_Close;pe[6]=pe_Open;
+		}else if(pee == 2){
+			if(pcc == 0){
+				pc[0]=pc_Close;pc[1]=pc_Open;
+				pe[2]=pe_Close;pe[4]=pe_Open;
+			}else if(pcc == 1){
+				pc[1]=pc_Close;pc[2]=pc_Open;
+				pe[2]=pe_Close;pe[4]=pe_Open;
+			}else if(pcc == 2){
+				pc[2]=pc_Close;pc[3]=pc_Open;
+				pe[2]=pe_Close;pe[4]=pe_Open;
+			}else if(pcc == 3){
+				pc[3]=pc_Close;pc[0]=pc_Open;
+				pe[2]=pe_Close;pe[4]=pe_Open;
+			}
+		}else if(pee == 6){
+			if(pcc == 0){
+				pc[0]=pc_Close;pc[1]=pc_Open;
+				pe[6]=pe_Close;pe[0]=pe_Open;
+			}else if(pcc == 1){
+				pc[1]=pc_Close;pc[2]=pc_Open;
+				pe[6]=pe_Close;pe[0]=pe_Open;
+			}else if(pcc == 2){
+				pc[2]=pc_Close;pc[3]=pc_Open;
+				pe[6]=pe_Close;pe[0]=pe_Open;
+			}else if(pcc == 3){
+				pc[3]=pc_Close;pc[0]=pc_Open;
+				pe[6]=pe_Close;pe[0]=pe_Open;
+			}
+		}
+	}
+}
+
+
+int main(void){
+	SYS_Init();
+	OpenSevenSegment();
+	CloseSevenSegment();
+	OpenKeyPad();
+	
+	uint16_t i;
+	int question = 2;
+	
+	if(question == 1){
+		while(1){
 			i = ScanKey();
-			Show(i);
-	  }
+			Q1_Show(i);
+		}
+	}
+	else if(question == 2){
+		int pc[4] = {1, 0, 0, 0};
+		int pe[8] = {1, 1, 1, 1, 0, 1, 1, 1};
+		while(1){
+			
+			i = ScanKey();
+			if(i==2 || i == 4 || i == 6 || i == 8){
+				Q2_Close();
+				Q2_Change_PC_PE(pc, pe, i);
+				CLK_SysTickDelay(1000000);
+			}
+			int pcc = Q2_find_pc(pc);
+			int pee = Q2_find_pe(pe);
+			Q2_Show(pcc, pee);
+		}
+	}
 }
